@@ -134,6 +134,8 @@ form button{
     color: #ecf0f1;
     border: none;
     cursor: pointer;
+    width: 90%;
+    align-items: center;
 }
 
 input:focus, textarea:focus{
