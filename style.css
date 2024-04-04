@@ -14,7 +14,17 @@ header{
     height: 80px;
     font-family: 'Acme';
     border-bottom: solid #B75800 2px;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    font-family: 'Acme';
+    border-bottom: solid #B75800 2px;
+    background-color: white;
+    z-index: 1000;
 }
 h2{
     font-family: 'Acme';
@@ -49,6 +59,7 @@ section{
 }
 
 article{
+    margin-top: 80px;
     background-color: #bd722d;
     color: white;
     border-radius: 10px;
@@ -106,7 +117,19 @@ footer p{
 }
 .formulario{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.socialmedia{
+    text-align: center;
+}
+
+.socialmedia a{
+    margin-top: 20px;
+    display: inline-block;
+}
+.endereco{
+    text-align: center;
 }
 
 .socialmedia img{
