@@ -182,8 +182,7 @@ footer p{
 }
 
 form input,
-form textarea,
-form button{
+form textarea{
     display: block;
     width: 320px;
     margin-bottom: 8px;
@@ -194,12 +193,16 @@ form textarea{
     height: 180px;
 }
 form button{
+    display: block;
+    width: 340px;
+    margin-bottom: 8px;
+    padding: 8px;
     background-color: #B75800;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
-    width: 90%;
     align-items: center;
+    box-sizing: border-box;
 }
 
 input:focus, textarea:focus{
